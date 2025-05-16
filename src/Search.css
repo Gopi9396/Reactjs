@@ -1,0 +1,36 @@
+.logo-search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+    flex-wrap: nowrap;
+  }
+  
+  .app-title {
+    color: white;
+    font-size: 48px;
+    margin: 0;
+    line-height: 1.2;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-bar input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }

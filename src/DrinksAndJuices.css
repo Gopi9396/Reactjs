@@ -1,0 +1,135 @@
+/* Container */
+.drinks-page {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  min-height: 100vh;
+}
+
+/* Section Title */
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+/* Price Filter */
+.price-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.price-filter label {
+  font-size: 1rem;
+  color: #333;
+}
+
+.price-filter input[type="number"] {
+  margin-left: 0.5rem;
+  padding: 0.3rem 0.5rem;
+  width: 80px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Clear Button */
+.clear-button {
+  padding: 0.4rem 1rem;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.clear-button:hover {
+  background-color: #e85b5b;
+}
+
+/* Grid of Drinks */
+.drinks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Card */
+.drink-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.drink-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 0.8rem;
+}
+
+.drink-price {
+  font-size: 1.1rem;
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+/* Add to Cart Button */
+.add-to-cart-btn {
+  padding: 0.5rem 1rem;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #27ae60;
+}
+
+/* No Items */
+.no-items {
+  font-size: 1.2rem;
+  color: #999;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.pagination button {
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.pagination button:hover {
+  background-color: #eee;
+}
+
+.pagination .active {
+  background-color: #3498db;
+  color: #fff;
+  border-color: #3498db;
+}

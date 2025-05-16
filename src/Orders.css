@@ -1,0 +1,112 @@
+.orders-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.orders-title {
+  text-align: center;
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.empty-message {
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+  padding: 40px 0;
+}
+
+.order-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.order-card {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.order-card:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.order-header {
+  background-color: #f0f0f0;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.order-header h4 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.order-header span {
+  font-size: 14px;
+  color: #666;
+}
+
+.expand-btn {
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.order-body {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.order-item {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+.item-image {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 8px;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-info p {
+  margin: 3px 0;
+  color: #333;
+  font-size: 15px;
+}
+
+.order-footer {
+  margin-top: 15px;
+  border-top: 1px solid #eee;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 16px;
+  color: #222;
+}
