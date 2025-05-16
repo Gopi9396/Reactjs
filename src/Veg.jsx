@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addToCart } from './store';
-import './veg.css';
+import './Veg.css';
 
 function Veg() {
   const vegItems = useSelector((state) => state.products.veg);
