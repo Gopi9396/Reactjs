@@ -1,6 +1,6 @@
 // src/Login.jsx
 import React, { useState } from "react";
-import "./login.css";  // Include the CSS for styling
+import "./Login.css";  // Include the CSS for styling
 
 function Login() {
   const [email, setEmail] = useState("");

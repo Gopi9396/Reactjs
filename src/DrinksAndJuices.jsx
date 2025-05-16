@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addToCart } from './store';
-import './drinksAndJuices.css'; // Reuse or customize as needed
+import './DrinksAndJuices.css'; // Reuse or customize as needed
 
 function DrinksAndJuices() {
  const drinkItems = useSelector((state) => state.products.DrinksAndJuices);
