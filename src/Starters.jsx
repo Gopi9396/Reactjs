@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addToCart } from './store';
-import './starters.css';
+import './Starters.css'; // You can reuse Starters.css if styles are the same
 
 function Starters() {
-  const starterItems = useSelector((state) => state.products.starters);
+ const starterItems = useSelector((state) => state.products.starters);
   const dispatch = useDispatch();
 
   const [currentPage, setCurrentPage] = useState(1);
@@ -74,7 +74,7 @@ function Starters() {
         </button>
       </div>
 
-      {/* Starter Cards */}
+      {/* Item Cards */}
       <div className="starters-grid">
         {currentItems.length > 0 ? (
           currentItems.map((item, index) => (
@@ -88,7 +88,7 @@ function Starters() {
             </div>
           ))
         ) : (
-          <div className="no-items">No items in this price range.</div>
+          <div>No items in this price range.</div>
         )}
       </div>
 
